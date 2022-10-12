@@ -167,7 +167,7 @@ class Client
     private $addresses;
 
     /**
-     * @var Credit|null
+     * @var Credit
      *
      * @ORM\OneToOne(targetEntity="SolidInvoice\ClientBundle\Entity\Credit", mappedBy="client", fetch="EXTRA_LAZY", cascade={"persist", "remove"}, orphanRemoval=true)
      * @Serialize\Groups({"client_api"})
@@ -183,6 +183,7 @@ class Client
         $this->recurringInvoices = new ArrayCollection();
         $this->payments = new ArrayCollection();
         $this->addresses = new ArrayCollection();
+        $this->credit = new Credit();
     }
 
     /**
@@ -423,10 +424,8 @@ class Client
         return $this->addresses;
     }
 
-    /**
-     * @return Credit
-     */
-    public function getCredit(): ?Credit
+
+    public function getCredit(): Credit
     {
         return $this->credit;
     }
