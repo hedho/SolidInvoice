@@ -1,4 +1,12 @@
 services:
 
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
     SolidWorx\FormHandler\FormHandler:
         alias: solidworx.form_handler
+
+    SolidInvoice\FormBundle\:
+        resource: '../../../*'
