@@ -64,9 +64,6 @@ class PaymentType extends AbstractType
                 'choice_attr' => function (PaymentMethod $paymentMethod) {
                     return ['data-gateway' => $paymentMethod->getGatewayName()];
                 },
-                'attr' => [
-                    'class' => 'select2',
-                ],
             ]
         );
 

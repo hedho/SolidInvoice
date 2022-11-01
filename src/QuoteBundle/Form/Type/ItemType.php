@@ -76,7 +76,7 @@ class ItemType extends AbstractType
                     'class' => Tax::class,
                     'placeholder' => 'No Tax',
                     'attr' => [
-                        'class' => 'select2 input-mini quote-item-tax',
+                        'class' => 'input-mini quote-item-tax',
                     ],
                     'required' => false,
                 ]
