@@ -5,54 +5,54 @@ datagrid:
             method: getGridQuery
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             invoice:
-                name: invoice
+                key: invoice
                 label: Invoice
                 editable: false
                 cell: invoice
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total_amount:
-                name: totalAmount
+                key: totalAmount
                 label: Total
                 editable: false
                 cell: money
                 formatter: money
             currency_code:
-                name: currencyCode
+                key: currencyCode
                 label: Currency
                 editable: false
                 cell: string
             method:
-                name: method
+                key: method
                 label: Method
                 editable: false
                 cell: string
                 formatter: object
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: payment_status
             message:
-                name: message
+                key: message
                 label: Message
                 editable: false
                 cell: string
             completed:
-                name: completed
+                key: completed
                 label: Completed
                 editable: false
                 cell: date
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
@@ -70,29 +70,29 @@ datagrid:
             method: getGridQuery
         columns:
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: payment_status
             method:
-                name: method
+                key: method
                 label: Method
                 editable: false
                 cell: string
                 formatter: object
             completed:
-                name: completed
+                key: completed
                 label: Completed
                 editable: false
                 cell: date
             total_amount:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: string
                 formatter: money
             message:
-                name: message
+                key: message
                 label: Message
                 editable: false
                 cell: string
@@ -109,34 +109,34 @@ datagrid:
             method: getGridQuery
         columns:
             invoice:
-                name: invoice
+                key: invoice
                 label: Invoice
                 editable: false
                 cell: invoice
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: payment_status
             method:
-                name: method
+                key: method
                 label: Method
                 editable: false
                 cell: string
                 formatter: object
             completed:
-                name: completed
+                key: completed
                 label: Completed
                 editable: false
                 cell: date
             total_amount:
-                name: totalAmount
+                key: totalAmount
                 label: Total
                 editable: false
                 cell: string
                 formatter: money
             message:
-                name: message
+                key: message
                 label: Message
                 editable: false
                 cell: string

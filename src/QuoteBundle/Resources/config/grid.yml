@@ -9,40 +9,40 @@ datagrid:
             route: '_quotes_view'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: quote_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: money
                 formatter: money
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: money
                 formatter: money
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
                 cell: string
                 formatter: discount
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
@@ -87,38 +87,38 @@ datagrid:
             route: '_quotes_view'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: quote_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: string
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: string
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
                 cell: string
                 formatter: discount
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date

@@ -1992,6 +1992,19 @@ adjust-sourcemap-loader@^4.0.0:
     toastr "^2.1.4"
     uplot "^1.6.18"
 
+ag-grid-community@^28.2.1, ag-grid-community@~28.2.1:
+  version "28.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-28.2.1.tgz#50778cb2254ee79497222781909d8364007dd91e"
+  integrity sha512-DMZh/xD/FqYP17qJ1M92PolTYe+hrKuEaf+A4h13O6qn2x/xZQrTRGW5DgnQLR/uLMe1XXZQPKR3UKgAlKo69A==
+
+ag-grid-vue3@^28.2.1:
+  version "28.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-vue3/-/ag-grid-vue3-28.2.1.tgz#a43464a1f681dbf0f1d8724e7446c827fd54f09d"
+  integrity sha512-n7+l51zFCZm3SVT2pI0lVVwL8gsDPebqNLfEy4DS17OlV5IL7c1eNXRosv/QMu+YHOEMVcwFRWH380nIjVF/+w==
+  dependencies:
+    ag-grid-community "~28.2.1"
+    vue "^3.0.0"
+
 agent-base@6, agent-base@^6.0.0, agent-base@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -2364,10 +2377,10 @@ bootstrap-switch@3.3.4:
   resolved "https://registry.yarnpkg.com/bootstrap-switch/-/bootstrap-switch-3.3.4.tgz#70e0aeb2a877c0dc766991de108e2170fc29a2ff"
   integrity sha512-7YQo+Ir6gCUqC36FFp1Zvec5dRF/+obq+1drMtdIMi9Xc84Kx63Evi0kdcp4HfiGsZpiz6IskyYDNlSKcxsL7w==
 
-"bootstrap-vue@npm:@ankurk91/bootstrap-vue@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@ankurk91/bootstrap-vue/-/bootstrap-vue-3.0.1.tgz#4b49f0ad220f1282f2e3e2a7eb9d64e0300a9a1b"
-  integrity sha512-PprNNRSymV06I8SNr0eKPtfbuj6wWPgbJZW4nhbC/SjXOvQ2ZsB9RvV38iYN4poedFSjsNkLWiJue19BjN5XwQ==
+bootstrap-vue@^2.23.1:
+  version "2.23.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-vue/-/bootstrap-vue-2.23.1.tgz#8f866f7cda27eb0e7e13a0bea8d55d8fc7a82199"
+  integrity sha512-SEWkG4LzmMuWjQdSYmAQk1G/oOKm37dtNfjB5kxq0YafnL2W6qUAmeDTcIZVbPiQd2OQlIkWOMPBRGySk/zGsg==
   dependencies:
     "@nuxt/opencollective" "^0.3.2"
     bootstrap "^4.6.1"
@@ -7370,7 +7383,7 @@ vue@^2.0.0:
     "@vue/compiler-sfc" "2.7.13"
     csstype "^3.1.0"
 
-vue@^3.0:
+vue@^3.0, vue@^3.0.0:
   version "3.2.40"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.40.tgz#23f387f6f9b3a0767938db6751e4fb5900f0ee34"
   integrity sha512-1mGHulzUbl2Nk3pfvI5aXYYyJUs1nm4kyvuz38u4xlQkLUn1i2R7nDbI4TufECmY8v1qNBHYy62bCaM+3cHP2A==

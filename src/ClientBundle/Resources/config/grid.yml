@@ -9,27 +9,27 @@ datagrid:
             route: '_clients_view'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             name:
-                name: name
+                key: name
                 label: Name
                 editable: false
                 cell: string
             website:
-                name: website
+                key: website
                 label: Website
                 editable: false
                 cell: uri
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: client_status
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date

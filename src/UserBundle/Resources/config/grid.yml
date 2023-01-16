@@ -7,27 +7,27 @@ datagrid:
             method: getGridQuery
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             name:
-                name: username
+                key: username
                 label: Username
                 editable: false
                 cell: string
             email:
-                name: email
+                key: email
                 label: email
                 editable: false
                 cell: email
             enabled:
-                name: enabled
+                key: enabled
                 label: Enabled
                 editable: false
                 cell: boolean
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date

@@ -9,40 +9,39 @@ datagrid:
             route: '_invoices_view'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: invoice_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: money
                 formatter: money
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: money
                 formatter: money
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
-                cell: string
-                formatter: discount
+                cell: discount
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
@@ -87,38 +86,38 @@ datagrid:
             route: '_invoices_view'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: invoice_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: string
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: string
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
                 cell: string
                 formatter: discount
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
@@ -144,55 +143,55 @@ datagrid:
             route: '_invoices_view_recurring'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: invoice_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: money
                 formatter: money
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: money
                 formatter: money
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
                 cell: string
                 formatter: discount
             dateStart:
-                name: dateStart
+                key: dateStart
                 label: 'Start Date'
                 editable: false
                 cell: recurringInvoiceStart
             dateEnd:
-                name: dateEnd
+                key: dateEnd
                 label: 'End Date'
                 editable: false
                 cell: recurringInvoiceEnd
             frequency:
-                name: frequency
+                key: frequency
                 label: Frequency
                 editable: false
                 cell: recurringInvoiceFrequency
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
@@ -237,55 +236,55 @@ datagrid:
             route: '_invoices_view_recurring'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             status:
-                name: status
+                key: status
                 label: Status
                 editable: false
                 cell: invoice_status
             client:
-                name: client
+                key: client
                 label: Client
                 editable: false
                 cell: client
             total:
-                name: total
+                key: total
                 label: Total
                 editable: false
                 cell: money
                 formatter: money
             tax:
-                name: tax
+                key: tax
                 label: Tax
                 editable: false
                 cell: money
                 formatter: money
             discount:
-                name: discount
+                key: discount
                 label: Discount
                 editable: false
                 cell: string
                 formatter: discount
             dateStart:
-                name: dateStart
+                key: dateStart
                 label: 'Start Date'
                 editable: false
                 cell: recurringInvoiceStart
             dateEnd:
-                name: dateEnd
+                key: dateEnd
                 label: 'End Date'
                 editable: false
                 cell: recurringInvoiceEnd
             frequency:
-                name: frequency
+                key: frequency
                 label: Frequency
                 editable: false
                 cell: recurringInvoiceFrequency
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date

@@ -7,27 +7,27 @@ datagrid:
             route: '_tax_rates_edit'
         columns:
             id:
-                name: id
+                key: id
                 label: ID
                 editable: false
                 cell: integer
             name:
-                name: name
+                key: name
                 label: Name
                 editable: false
                 cell: string
             rate:
-                name: rate
+                key: rate
                 label: Rate
                 editable: false
                 cell: percent
             type:
-                name: type
+                key: type
                 label: Type
                 editable: false
                 cell: string
             created:
-                name: created
+                key: created
                 label: Created
                 editable: false
                 cell: date
